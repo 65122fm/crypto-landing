@@ -1,0 +1,1021 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --primary:  rgb(27, 0, 78);
+    --mian: rgba(78, 0, 98, 1);
+    --text-color: white;
+    --button-color: rgba(235, 87, 87, 1);
+    --background-color: rgba(255, 246, 251, 1); 
+    --footer-text-color: #dcdcdc;
+    --footer-text-hover-color: #ffffff;
+    --footer-social-media:#rgba(97, 97, 97, 1);
+}
+.header-part {
+    width: 100%;
+    background: linear-gradient(to right, rgba(34, 0, 118, 1), rgba(78, 0, 98, 1));
+    }
+    .header-shape{
+        position: absolute;
+        left: 0px;
+        top: 90px;
+    }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 56px;
+    cursor: pointer;
+
+}
+.header h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h2 img {
+    width: 23.56px;
+    height: 25.11px;
+    top: 25.81px;
+    left: 126.13px;
+}
+.header .trade {
+    color: var(--text-color);
+    border: 1px solid  rgba(235, 87, 87, 1);
+    border-radius: 12px;
+    padding: 6px;
+}
+.menu-list {
+    display: flex;
+    gap: 20px;
+    color: var(--text-color);
+}
+.header-part .main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.header-part .main-content .main-content-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-part .main-content img {
+    width: 40%;
+    padding-left: 100px;
+
+    width: 635.17px;
+height: 487.44px;
+
+    
+}
+.firsth2{
+    font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+color: var(--text-color);}
+.header-part .main-content .main-content-text p{
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 400;
+        padding: 20px 0px;
+        text-align: left;
+        color: var(--text-color);
+}
+
+.header-part .main-content .main-content-text button{
+border-color:var(--button-color) ;
+padding: 15px 30px 15px 30px;
+gap: 10px;
+border-radius: 50px;
+background-color: var(--button-color);
+color: white;
+
+}
+/* ===========error============ */
+/* .slanted-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+    background: var(--mian);
+    clip-path:polygon((0%, 25%, 100%,25%,0%));} */
+
+/* =========================== */
+
+
+.icon-scrool{
+    position: absolute;
+    width: 20.69px;
+    top: 600.55px;
+    left: 720.96px;
+
+}
+
+
+.today {
+    width: 100%;
+    background-color: rgb(27, 0, 78);
+    padding-bottom: 60px;
+  }
+  .today .price {
+    width: 85%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .price p {
+    font-size: 32px;
+    font-family: Poppins;
+    line-height: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+  }
+  .today .Cryptocurrency {
+    width: 85%;
+    margin: auto;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency table {
+    width: 100%;
+  }
+  .today .Cryptocurrency table thead tr {
+    border-bottom: 1px solid grey;
+  }
+  .today .Cryptocurrency table thead tr .last {
+    display: flex;
+    justify-content: center;
+  }
+  .today .Cryptocurrency table thead tr .fer i {
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .today .Cryptocurrency table thead tr .fer span {
+    margin-left: 30px;
+  }
+  .today .Cryptocurrency table thead tr th {
+    color: #fff;
+    background-color: rgb(27, 0, 78);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .ed{
+    border: 1px solid grey;
+  }
+  .hi{
+    text-align: center;
+  }
+  .today .Cryptocurrency tbody td {
+    border-top: 1px solid grey;
+  }
+  .today .Cryptocurrency tbody tr .nu {
+    color: red;
+  }
+  .today .Cryptocurrency tbody tr .yu {
+    font-size: 13px;
+    color: rgb(26, 255, 124);
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .tu {
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+  }
+  .today .Cryptocurrency tbody tr .tu span {
+    margin-left: 35%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .mu {
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+  }
+  .today .Cryptocurrency tbody tr .mu span {
+    margin-left: 30%;
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    font-family: Inter;
+  }
+  .today .Cryptocurrency tbody tr .bitcoin .BTC {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    font-family: Open Sans;
+    color: rgb(130, 130, 130);
+  }
+  .today .Cryptocurrency tbody tr .bitcoin span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  .today .Cryptocurrency tbody tr td {
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(27, 0, 78);
+  }
+  .today .Cryptocurrency tbody tr td .sekil {
+    margin-left: 20px;
+    width: 80%;
+    position: relative;
+  }
+.name1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-image{
+
+    width: 1170.91px;
+    height: 662.71px;
+    padding: 60px;
+}
+
+
+.most-trustedall{
+    height: auto;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.most-trusted {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    align-self: center;
+    padding: 0px 36px ;
+    text-align: center;
+}
+.most-trusted h1 {
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-section {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row; 
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.card-body h3 {
+    margin: 20px 0 10px;
+    color: var(--primary);
+    align-self: stretch;
+}
+
+.card-body ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+}
+.card-image{
+    width: 62.22px;
+    height: 69.53px;
+}
+
+.app-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    height: auto;
+    position: relative;
+}
+.app-download .app-download-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+
+}
+.app-download .text-part {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.app-download .text-part h1 {
+    font-size: 36px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+.app-download .text-part p {
+    font-size: 16px;
+    color: var(--text-color);
+    padding: 10px 0px;    
+}
+.imageapp {
+    width: 400px;
+    cursor: pointer;
+    position: absolute;
+    left: 3%;
+    top: 65%;
+}
+.imgapp1 {
+    width: 400.37px;
+height:  auto;
+position: relative;
+
+}
+/* ========error========== */
+
+/* .behind-phone {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    top: 25%;
+    top: 2066.54px;
+    left: 801.36px;
+    z-index: -1;
+
+} */
+
+
+ /* ========error========== */
+
+
+.learn-part{
+    background-color: var(--background-color);
+    width: 100%;
+height: auto;
+
+}
+ 
+.learn-part-text {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    align-self: center;
+    padding: 10px 0px; 
+    text-align: center;
+
+}
+.learn-part-text h1 {
+    padding-top: 30px;
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    font: Poppins;
+}
+
+.card-section1 {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row; 
+    }
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 368px; 
+    border-radius: 10px;
+    background-color:var(--text-color);
+}
+
+.card-body1 h3 {
+    margin: 20px 0 10px;
+    color: var(--primary);
+    align-self: center;
+}
+.card-body1 p{
+    padding: 10px 0px 15px 0px;
+}
+.card-body1{
+    padding: 12px;
+}
+
+.card-image1{
+    width: 368px;
+    height: 330.83px;
+    top: -13.47px;
+    gap: 0px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.learn-part .card-section1 .part1 .card-body img{
+    padding-top: 12px 0px;
+}
+
+
+
+.search-part {
+    position: relative;
+    background-color: var(--primary);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-shape{
+    position: absolute;
+    left: 0px;
+    width: 343.82px;
+top: 36.38px;
+opacity: 0.6px;
+}
+.search-shape1{
+    position: absolute;
+height: 333.4px;
+top: 36.38px;
+z-index: 1;
+right: 0px;
+}
+.search-part-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.search-part .search-part-text h1 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.search-part .search-part-text p {
+    color: var(--text-color);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+.search-part .search-part-text div {
+
+    margin-top: 20px; 
+}
+
+.search-part .search-part-text input {
+    font-size: 16px;
+    border-radius: 31px;
+    width: 100%;
+    height: 74px;
+    background-color: var(--primary);
+    border-color: var(--text-color);
+    }
+    .search-part .search-part-text input::placeholder{
+         color: var(--text-color);
+         padding-left: 12px;
+         font-size: 14px;
+        }
+
+.search-part .search-part-text button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    left: 56.65%;
+    top: 240px;
+    background-color: var(--button-color);
+    border: none;
+    cursor: pointer;
+    width: 139px;
+    height: 66px;
+    border-radius: 31px;
+    color: var(--text-color);
+
+}
+.search-shape{
+    position: absolute;
+
+}
+
+
+
+.footer{
+    background: linear-gradient(to top right, var(--primary) 25%, var(--mian) 75%);
+
+}
+.site-footer {
+    display: flex;
+    padding: 60px 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 20px; 
+}
+
+.footer-section ul li {
+    font-family: Inter, sans-serif;
+    color: var(--footer-text-color);
+    margin: 25px 0px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.88px;
+}
+
+.footer-section ul li:hover {
+    color: var(--footer-text-hover-color);
+    cursor: pointer;
+}
+
+
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 70px 30px ;
+    margin: 20px 20px 0px;
+}
+
+.end::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 1px;
+    background-color: #fff;
+}
+.end-text{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.end-text p {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--footer-text-color);
+    }
+
+
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media ul li {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--footer-text-color);
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid rgba(97, 97, 97, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.social-media img{
+    width:16px;
+height: 16px;
+
+}
+.active-media{
+    background-color: var(--button-color);
+}
+
+.social-media ul li:hover {
+    color: var(--footer-text-hover-color);
+    cursor: pointer;
+}
+.noneimg1{
+    display: none;
+}
+@media (max-width: 635px) and (min-width:425px){
+
+    .ed{
+        display: none;
+    }
+  .noneimg{
+    display: none;
+  }
+    .card-section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-list{
+        display: none;
+    }
+    .icon-scrool{
+        display: none;
+    }
+    .header-part{
+        background: linear-gradient( rgba(34, 0, 118, 1));
+    }
+    .firsth2{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 120px;
+        font-weight: 600;
+        margin-left: 10%;
+        transform: translate(-5%);
+     
+    }
+    .header-part .main-content .main-content-text p {
+        font-size: 18px;
+        width: 73vw;
+        display: flex;
+        text-align: center;
+        padding: 0; 
+        margin-bottom: 15px;   
+    }
+    .table-image{
+        width: 100vw;
+    }
+    .most-trusted h1 {
+        display: flex;
+        margin-bottom: 10%;
+        font-size: 25px;
+       padding: 0;
+       padding-top: 10px;
+    }
+    .app-download .app-download-text {
+        padding: 0;
+    }
+    .app-download .app-download-text .text-part h1{
+        text-align: center;
+        font-size:30px;
+       width: 65%;
+    }
+    .app-download .app-download-text .text-part p{
+       width: 95%;
+       font-size: 17px;
+    
+
+    }
+    .app-download{
+        position: relative;
+        height: 750px;
+    }
+    .imageapp{
+        position:absolute;
+        z-index: 2;
+        top: 78%;
+        left: 5%;
+        height: auto;
+        
+    }
+
+    .imgapp1{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: 1;
+        right: 15%;
+        top: 38%;
+   
+    }
+    .app-download-text{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+   
+    }
+    .card-section1{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .learn-part{
+        height: auto;
+        justify-content: center;
+    }
+    .search-part .search-part-text h1{
+        font-size: 40px;
+    }
+    .search-part .search-part-text p {
+        font-size: 24px;
+        padding: 0 6px;
+    }
+    .header .trade {
+        display: none;
+    }
+   .noneimg1{
+    display: block;
+   }
+   .header-shape{
+    display: none;
+   }
+   .header-part .main-content .main-content-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header-part .main-content .main-content-text button {
+    padding: 5px 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.card-body{
+    text-align: center;
+}
+.app-download .text-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+}
+
+  .Cryptous {
+    height: 600px;
+    background: rgb(27, 0, 78);
+  }
+
+  .tu,
+  .key,
+  .yu,
+  .nu,
+  .fer,
+  .Cryptous .scrool,
+  .Cryptous main,
+  .Cryptous header ul,
+  .Cryptous header .Trade,
+  .Cryptous nav .Make .Fotto {
+    display: none;
+  }
+
+  .Cryptous header {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .Cryptous header i {
+    display: block;
+  }
+  .today .Cryptocurrency tbody tr .mu{
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  .today .Cryptocurrency tbody tr td{
+    padding: 0;
+    margin: 20px 0px;
+  }
+  .valu{
+    padding-left: 200px;
+  }
+  .Cryptous nav .Make .better {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+  }
+
+  .Cryptous nav .Make .better h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+  }
+
+  .Cryptous nav .Make .better .spn {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  .Cryptous nav .Make .better .spn span {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+
+  .Cryptous nav .Make .better .btn {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .Cryptous nav .Make .better .btn button {
+    width: 197.59px;
+    height: 48.3px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(235, 87, 87);
+    font-size: 17px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .Cryptous nav .Make .Fotto .frame {
+    width: 100%;
+    height: 300px;
+    margin-top: 15%;
+    background-image: url(/image/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .Cryptous nav .Make .Fotto .frame img {
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+  }
+
+  .Cryptocurrency .hi {
+    display: none;
+  }
+
+  .Cryptocurrency table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Cryptocurrency tbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Cryptocurrency tbody tr {
+    display: flex;
+
+  }
+
+  .Cryptocurrency tbody tr td.bitcoin {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .Cryptocurrency tbody tr td.mu {
+    width: 50%;
+    text-align: right;
+  }
+
+
+
+
+  .sekil{
+    display: none;
+  }
+  .today .price p{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: whitesmoke;
+  }
+  .today .price{
+    width: 100%;
+  }
+
+  .card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.card-body1{
+    text-align: center;
+}
+.card-section1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15%;
+    padding-bottom: 10px;
+}
+.search-shape
+{
+    display: none;
+}
+.search-shape1{
+    display: none;
+}
+.search-part .search-part-text input{
+    height: 50px;
+    width: 92%;
+}
+.search-part .search-part-text button{
+    height: 44px;
+    top: 64.75%;
+    left: 63.5%;
+}
+.site-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    padding:30px 80px 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.end::before{
+    width: 100%;
+    left: 0;
+}
+.social-media{
+    transform: translateY(-100%);
+}
+.end-text{
+    transform: translateY(200%);
+}
+.learn-part-text h1{
+   width: 95%;
+}
+}
+
